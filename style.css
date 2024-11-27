@@ -7,11 +7,7 @@
   --greyblue: hsl(210, 46%, 95%);
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+
 
 body {
   font-family: "Barlow Semi Condensed", sans-serif;
@@ -21,6 +17,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin: 5%;
 }
 
 .maingrid {
@@ -29,9 +26,7 @@ body {
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, auto);
   gap: 20px;
-  margin: 20px;
 
-  
 }
 
 .grid1 {
@@ -88,6 +83,10 @@ p {
   color: var(--lightgrey);
 }
 
+h1{
+    margin-bottom: 15px;
+}
+
 img {
   border-radius: 30px;
   align-self: center;
@@ -97,6 +96,7 @@ img {
 .profil {
   display: flex;
   width: 100%;
+  margin-bottom: 15px;
 }
 
 .profil div p,
